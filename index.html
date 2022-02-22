@@ -5,33 +5,35 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
+    <!-- link CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css" />
-   
-    
-    <title>My Website Portfolio</title>
+    <!-- awsome lagi -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css'>
+      <link href='//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'/>
+    <title>My Website</title>
   </head>
   <body>
-    <div class="hero">
-      <nav class="navbar navbar-expand-lg navbar-dark  fixed-top" style="background: rgba(000, 000, 000, 0.3);">
+    
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background: rgba(000, 000, 000, 0.3)">
         <div class="container">
           <a class="navbar-brand" href="#">Portfo<span>lio</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto" style="font-size: 23px;">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">About Me</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#project">Project</a>
               </li>
-              
+
               <li class="nav-item">
                 <a class="nav-link" href="#kontak">Contact Me</a>
               </li>
@@ -40,140 +42,135 @@
         </div>
       </nav>
     </div>
+    <!-- content -->
+    <section class="jumbotron text-center">
+      <h4>Hello nama saya</h4>
+      <h1 class="display-4" style="color: #ffff">Rendy<span>Jagusya</span></h1>
+      <h3 class="lead text-white fs-4">Saya Adalah mahasiswa <span>Manajemen Informatika</span></h3>
+    
+    </section>
 
-    <div class="content">
-        <h4>Hello Nama saya</h4>
-        <h1>Rendy<span>Jagusya</span></h1>
-        <h3>Saya Adalah mahasiswa <span class="a">Manajemen Informatika</span></h3>
-        <div class="newslatter">
-          <form>
-            <input type="email" name="email" id="mail" placeholder="Masukan Email Anda" />
-            <input type="submit" name="submid" value="silahkan" />
-          </form>
-        </div>
-      </div>
-    </div>
+    <!-- about me -->
     <section id="about">
-        <div class="main">
-          <img src="img/jg.jpg" />
-          <div class="about-text">
-            <h2 class="h2 text-white">Tentang Saya</h2>
+      <div class="container">
+        <div class="row text-center mb-4 ">
+          <div class="col">
+            
+            <h2>Tentang <span>Saya</span></h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class=" col-md-3">
+            <img src="img/jg.jpg" width="250px" />
+          </div>
+          <div class="col text-center">
             <p class="p">
               Saya adalah Mahasiswa <strong>AMIK WAHANA MANDIRI</strong> yang berada di kota <strong>DEPOK</strong> selain kuliah saya juga bekerja di sebuah kantor pedagang besar farmasi yang yaitu<strong>PT.TIGA URAT BUHIT JAYA</strong>
             </p>
           </div>
         </div>
-      </section>
-      <!-- project -->
-      <section id="project">
-        <div class="project">
-          <div class="title">
-            <h2 class="ps text-white">Project Saya</h2>
-            <div class="box">
-              <div class="card">
-                <i class="fa-solid fa-images"></i>
-                <h5>Olshope Polaroid</h5>
-                <div class="pra">
-                  <p class="jjn">Project sederhana yang saya buat yaitu  website  online shop untuk  open pre order foto polaroid dan cetak kalender dengan tema background  sesuai keinginan .</p>
-                  <p style="text-align: center">
-                    <button class="pencet"><a class="a" href="https://makansiang.github.io/maudy/">silahkan</a></button>
-                  </p>
-                </div>
-              </div>
-              <div class="card">
-                <i class="fa-solid fa-burger"></i>
-  
-                <h5>Olshope street food</h5>
-                <div class="pra">
-                  <p class="jjn">project ini di buat untuk membuat website dari jajanan street food atau jajanan kaki lima  mulai dari jajanan bakaran , minuman,dan  masih banyak lainnya.</p>
-                  <p style="text-align: center">
-                   <button class="pencet"> <a class="a" href="https://makansiang.github.io/snacksantuy/">silahkan</a></button>
-                  </p>
-                </div>
-              </div>
-            </div>
+      </div>
+    </section>
+    <!-- project -->
+    <section id="project">
+      <div class="container ">
+        <div class="row text-center  mb-4">
+          <div class="col">
+          
+            <h2>Project <span> Saya</span></h2>
           </div>
         </div>
-      </section>
-        <!-- kontak -->
-        <section id="kontak">
-         <div class="container">
-           <div class="row">
-             <div class="col">
-               <h2 class="kontak">kontak <span>saya</span></h2>
-             </div>
-           </div>
-           <div class="col">
-              <form class="form">
-                  <fieldset>
-                      <legend>Tinggalkan Pesan</legend>
-                      <p>
-                          <label for="full-name"  style="margin-right:27px"> Full Name </label>
-                          <input class="input"
-                              required
-                              placeholder="Input Name"
-                              id="full-name"
-                              name="fullName"
-                              type="text"
-                          />
-                      </p>
-                      <p>
-                          <label for="email"style=" margin-right:57px;">
-                              Email
-                          </label>
-                          <input class="input"
-                              required
-                              placeholder="Email"
-                              id="email"
-                              name="email"
-                              type="email"
-                          />
-                      </p>
-                      <p>
-                          <label for="telpon" style="margin-right:37px">
-                              No Telp
-                          </label>
-                          <input class="input"
-                              required
-                              placeholder="Telp"
-                              id="telpon"
-                              name="telpon"
-                              type="number"
-                          />
-                      </p>
-                     
-                      <p>
-                          <button class="bt" type="submit">Submit</button>
-                      </p>
-                  </fieldset>
-              </form>
-           </div>
-         </div>
-        </section>
-        <footer class="footer-distributed">
-
-          <div class="footer-left">
-    
-            <h3>Design by<span>Rendy jagusya</span></h3>
-            <p class="d">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, dolorum.Lorem ipsum dolor sit, amet consectetur adipisicing.<span>Lorem ipsum dolor sit amet.</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia natus illo consequuntur!</p>
-    
-            
-         
-            <div class="footer-icons">
-    
-             <a class="c" href="#"><img src="img/580b57fcd9996e24bc43c543.png" width="40px"></a>
-             <a class="c" href="#https://insagram.com/rendyjagusya_"><img src="img/ig.png.opdownload" width="40px"></a>
-             <a class="c" href="#https://facebook.com/rendyjagusya/"><img src="img/12.png.opdownload" width="40px"></a>
-             <a class="c" href="#https://Makansiang.github.io"><img src="img/gt.jpg" width="40px"></a>
-             <a class="c" href="#"><img src="img/gm.png" width="40px"></a>
-             
+        <div class="row fs-5 justify-content-center">
+          <div class="col-md mb-3" style="color:#000000;">
+            <div class="card-body">
+              <h5 class="card-title">Olshope Polaroid</h5>
+               <p class="jjn">Project sederhana yang saya buat yaitu  website  online shop untuk  open pre order foto polaroid dan cetak kalender dengan tema background  sesuai keinginan .</p>
+               <button class="pencet"><a class="a" href="https://makansiang.github.io/maudy/">silahkan</a></button>
             </div>
+          </div>
+          <div class="col-md mb-3" style="color:#000000;">
+            <div class="card-body">
+              <h5 class="card-title">Olshope Polaroid</h5>
+               <p class="jjn">Project sederhana yang saya buat yaitu  website  online shop untuk  open pre order foto polaroid dan cetak kalender dengan tema background  sesuai keinginan .</p>
+               <button class="pencet"><a class="a" href="https://makansiang.github.io/maudy/">silahkan</a></button>
+            </div>
+          </div>
+          </div>
+    </section>
+<!-- contact -->
+<section id="kontak">
+  <div class="container text-center mb-4">
+    <div class="row">
+      <div class="col">
+        <h2>Kontak <span>Saya</span></h2>
+      </div>
+    </div>
+    <div class="col r">
+      <div class="saya">
+        <label for="exampleFormControlInput1" class="form-label">Nama Lengkap</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Masukan nama anda">
+      </div>
+      <div class="saya">
+        <label for="exampleFormControlInput1" class="form-label">Email </label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Masukan email">
+      </div>
+      <div class="saya">
+        <label for="exampleFormControlInput1" class="form-label">No Telepon </label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Masukan nomor telepon">
+      </div>
+      <div class="saya">
+        <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button class="bt" type="submit">Submit</button>
+    </div>
+  </div>
+</section>
+<!-- footer -->
+<footer id="footer" class="footer-1">
+  <div class="main-footer widgets-dark typo-light">
+  <div class="container">
+  <div class="row">
+  
+    <div class="col-xs-12 col-sm-6 col-md-3">
+  <div class="widget subscribe no-box">
+    <p>Created by</p>
+  <h5 class="widget-title text-white">RENDY<span> JAGUSYA</span>
+    <span class="SP"></span></h5>
+  <img src="img/rendy.jpg" width="50px">
+  <p class="text-white">About the company, little description will goes here.. </p>
+  </div>
+  </div>
+  
     
-          </div>.
+  
+  
     
-        </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-    >
+  
+        <div class="col-xs-12 col-sm-6 col-md-3">
+  <div class="widget no-box">
+  <h5 class="widget-title">More information<span></span></h5>
+             
+              <a href="#"><img src="img/12.png.opdownload" width="28px"></a>
+              <a href="#"><img src="img/ig.png.opdownload" width="30px"></a>
+              <a href="#"><img src="img/gm.png" width="30px"></a>
+              <a href="#"><img src="img/gt.jpg" width="25px"></a>
+            
+  </div>
+  </div>
+  
+    
+  <div class="footer-copyright">
+  <div class="container">
+  <div class="row">
+  <div class="col-md-12 text-center">
+  <p>Copyright Design Sherif Hamdy © 2019. All rights reserved.</p>
+  </div>
+  </div>
+  </div>
+  </div>
+  </footer>
+<!-- akhir -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
